@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>💰 My Expense Tracker</h1>
+
+    <div class="form-box">
+        <h2>Add Expense</h2>
+        
+        <input type="text" id="desc" placeholder="What did you buy?">
+        
+        <input type="number" id="amount" placeholder="How much? (PKR)">
+        
+        <input type="date" id="date">
+        
+        <button id="btn">Add Now</button>
+    </div>
+
+    <div class="stats-box">
+        <p>Total: <strong id="total">0</strong> PKR</p>
+        <p>Items: <strong id="count">0</strong></p>
+    </div>
+
+    <div class="list-box">
+        <h2>Your Expenses</h2>
+        <div id="list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
