@@ -69,7 +69,7 @@ const filterExpenses = (category) => {
 };
 
 ```
-
+**[View Live Application](https://expense-tracker-app-liard-nu.vercel.app)**
 ---
 
 ## 🎓 Key Learning Outcomes
